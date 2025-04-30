@@ -1,0 +1,11 @@
+Here's the prank in a nutshell:
+The BAT file
+Locates where it is.
+Runs the PowerShell script with "bypass" so it will run every time.
+The PowerShell script
+Changes all text to green.
+Presents a fake Windows banner and waits for you to type /e.
+Traverses all folders in C:\\\Windows\\\System32 (but doesn't open them).
+Enters into an infinite loop where it:
+Prints "Deleting: <folder path>" lightning fast for every folder.
+Then prints "[✓] Directories loaded. Streaming random paths." and outputs random paths continuously. Result in It merely prints green "Deleting." messages on screen. Nothing on your computer is being deleted.
