@@ -1,7 +1,7 @@
 $Host.UI.RawUI.ForegroundColor = 'Green'
 
 Write-Host 'Microsoft Windows (c) Microsoft Corporation. All rights reserved.`n'
-$input = Read-Host 'Enter /e to begin'
+$input = Read-Host 'Enter /e to begin you should also make it full screen by type F11 or Fn 11'
 
 if ($input -ne '/e') {
     Write-Host 'Invalid input. Exiting...'
